@@ -16,27 +16,27 @@ React-приложение на React + TypeScript + Vite о славянско�
 
 ## Стек технологий
 
-- React — построение пользовательского интерфейса
-- TypeScript — типизация кода
-- Vite — сборка и dev-сервер
-- React Router — маршрутизация между страницами
+- `React — построение пользовательского интерфейса`
+- `TypeScript — типизация кода`
+- `Vite — сборка и dev-сервер`
+- `React Router — маршрутизация между страницами`
 
 ---
 
 ## Структура
 
-- src/App.tsx — выбор страницы по URL;
-- src/pages/HomePage.tsx — главная страница;
-- src/pages/EncyclopediaPage.tsx — каталог, поиск и тематические фильтры;
-- src/pages/AboutPage.tsx — отдельная страница о проекте;
-- src/components/Header.tsx — навигация сайта;
-- src/components/MythList.tsx и src/components/MythCard.tsx — список и карточка материала;
-- src/mocks/mythologyMock.ts — демонстрационные mock-данные;
-- src/services/mythologyApi.ts — функция получения mock-данных;
-- src/types/mythology.ts — TypeScript-тип записи;
-- src/index.css — оформление и адаптивные стили;
-- docs/lab-02-report.md — отчёт по лабораторной работе.
-Записи в каталоге — учебные демонстрационные описания, а не полные исторические статьи. Их можно расширять, сохраняя текущую структуру данных..
+- `src/App.tsx` — выбор страницы по URL;
+- `src/pages/HomePage.tsx` — главная страница;
+- `src/pages/EncyclopediaPage.tsx` — каталог, поиск и тематические фильтры;
+- `src/pages/AboutPage.tsx` — отдельная страница о проекте;
+- `src/components/Header.tsx` — навигация сайта;
+- `src/components/MythList.tsx` и `src/components/MythCard.tsx` — список и карточка материала;
+- `src/mocks/mythologyMock.ts` — демонстрационные mock-данные;
+- `src/services/mythologyApi.ts` — функция получения mock-данных;
+- `src/types/mythology.ts` — TypeScript-тип записи;
+- `src/index.css` — оформление и адаптивные стили;
+- `docs/lab-02-report.md` — отчёт по лабораторной работе.
+> Записи в каталоге — учебные демонстрационные описания, а не полные исторические статьи. Их можно расширять, сохраняя текущую структуру данных..
 
 ---
 
@@ -95,8 +95,8 @@ React-приложение на React + TypeScript + Vite о славянско�
 - 12 демонстрационных записей в четырёх исходных категориях;
 - Поиск и фильтрация энциклопедии по темам;
 - Краткое чтение записи в диалоговом окне и добавление записи в избранное;
-- Отдельные компоненты Header, MythList, MythCard;
-- Самостоятельные страницы HomePage, EncyclopediaPage, AboutPage.
+- Отдельные компоненты `Header`, `MythList`, `MythCard`;
+- Самостоятельные страницы `HomePage`, `EncyclopediaPage`, `AboutPage`.
   
 ---
 
@@ -104,16 +104,16 @@ React-приложение на React + TypeScript + Vite о славянско�
 
 # Запуск 
 Требуется установленный Node.js и npm.
-npm install
-npm run dev
+`npm install
+npm run dev`
 
 # Сборка production-версии
-npm run build
+`npm run build`
 
 # Предпросмотр собранной версии
-npm run preview
+`npm run preview`
 
 # Откройте адрес, который Vite выведет в терминале. Для проверки production-сборки: 
-npm run build
+`npm run build`
 
 
