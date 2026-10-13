@@ -5,10 +5,9 @@ interface MythListProps {
   entries: MythologyEntry[];
   favoriteIds: string[];
   onToggleFavorite: (id: string) => void;
-  onRead: (entry: MythologyEntry) => void;
 }
 
-export function MythList({ entries, favoriteIds, onToggleFavorite, onRead }: MythListProps) {
+export function MythList({ entries, favoriteIds, onToggleFavorite }: MythListProps) {
   if (entries.length === 0) {
     return (
       <div className="empty-state">
@@ -26,8 +25,11 @@ export function MythList({ entries, favoriteIds, onToggleFavorite, onRead }: Myt
           entry={entry}
           isFavorite={favoriteIds.includes(entry.id)}
           onToggleFavorite={onToggleFavorite}
-          onRead={onRead}
         />
+      ))}
+    </div>
+  );
+}
       ))}
     </div>
   );
