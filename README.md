@@ -25,18 +25,18 @@ React-приложение на React + TypeScript + Vite о славянско�
 
 ## Структура
 
-`src/App.tsx — выбор страницы по URL;`
-`src/pages/HomePage.tsx — главная страница;`
-`src/pages/EncyclopediaPage.tsx — каталог, поиск и тематические фильтры;`
-`src/pages/AboutPage.tsx — отдельная страница о проекте;`
-`src/components/Header.tsx — навигация сайта;`
-`src/components/MythList.tsx и src/components/MythCard.tsx — список и карточка материала;`
-`src/mocks/mythologyMock.ts — демонстрационные mock-данные;`
-`src/services/mythologyApi.ts — функция получения mock-данных;`
-`src/types/mythology.ts — TypeScript-тип записи;`
-`src/index.css — оформление и адаптивные стили;`
-`docs/lab-02-report.md — отчёт по лабораторной работе.`
-`Записи в каталоге — учебные демонстрационные описания, а не полные исторические статьи. Их можно расширять, сохраняя текущую структуру данных..`
+-`src/App.tsx` — выбор страницы по URL;
+-`src/pages/HomePage.tsx` — главная страница;
+-`src/pages/EncyclopediaPage.tsx` — каталог, поиск и тематические фильтры;
+-`src/pages/AboutPage.tsx` — отдельная страница о проекте;
+-`src/components/Header.tsx` — навигация сайта;
+-`src/components/MythList.tsx` и `src/components/MythCard.tsx` — список и карточка материала;
+-`src/mocks/mythologyMock.ts` — демонстрационные mock-данные;
+-`src/services/mythologyApi.ts` — функция получения mock-данных;
+-`src/types/mythology.ts` — TypeScript-тип записи;
+-`src/index.css` — оформление и адаптивные стили;
+-`docs/lab-02-report.md` — отчёт по лабораторной работе.
+> Записи в каталоге — учебные демонстрационные описания, а не полные исторические статьи. Их можно расширять, сохраняя текущую структуру данных..
 
 ---
 
