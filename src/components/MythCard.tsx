@@ -1,10 +1,10 @@
+import { Link } from "react-router";
 import type { MythologyEntry } from "../types/mythology";
 
 interface MythCardProps {
   entry: MythologyEntry;
   isFavorite: boolean;
   onToggleFavorite: (id: string) => void;
-  onRead: (entry: MythologyEntry) => void;
 }
 
 const entrySymbols: Record<string, string> = {
@@ -29,7 +29,7 @@ const displayCategory: Record<string, string> = {
   Герои: "Герои и сказания",
 };
 
-export function MythCard({ entry, isFavorite, onToggleFavorite, onRead }: MythCardProps) {
+export function MythCard({ entry, isFavorite, onToggleFavorite }: MythCardProps) {
   return (
     <article className="myth-card">
       <div className="myth-card__topline">
@@ -59,10 +59,9 @@ export function MythCard({ entry, isFavorite, onToggleFavorite, onRead }: MythCa
         </span>
         <span className="source-count">{entry.sourceCount} заметок</span>
       </div>
-      <button className="read-link" type="button" onClick={() => onRead(entry)}>
+      <Link className="read-link" to={`/encyclopedia/${entry.id}`}>
         Читать запись <span aria-hidden="true">↗</span>
-      </button>
+      </Link>
     </article>
   );
 }
-
